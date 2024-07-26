@@ -1,0 +1,76 @@
+/* Auth.scss */
+
+.auth {
+    position: fixed; /* or absolute */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+form {
+    margin-top: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: var(hoover-color);
+}
+
+.note-card {
+    background-color: #f9f9f9; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 10px 0; /* Margin above and below the card */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    max-width: 300px; /* Maximum width of the card */
+}
+
+.note-card h3 {
+    margin-top: 0;
+    color: #333; /* Dark grey color for the title */
+}
+
+.note-card p {
+    color: #666; /* Medium grey color for the text */
+    line-height: 1.5; /* Spacing between lines of text */
+}

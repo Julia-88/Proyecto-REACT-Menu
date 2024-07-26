@@ -1,0 +1,46 @@
+.food-container {
+  width: 100%;
+  
+}
+.food-bar-type {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f0f0f0; 
+  color: rgb(46, 132, 46);
+  border: 3px solid #ccc; 
+  border-radius: 10px; 
+}
+.food-bar-day-week {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  width: 100%;
+  color: grey;
+  border: 3px solid #ccc; 
+  border-radius: 10px; 
+  padding: 10px;
+  background-color: #f0f0f0; // Color de fondo de la barra
+}
+  
+.select-button {
+  margin-left: 10px;
+
+}
+
+.selected {
+  background-color: var(--hoover-color);
+}
+
+.selected:hover {
+  background-color: var(--hoover-color);
+}
+
+.unselected {
+  background-color: var(--primary-color);
+}
+
+.unselected:hover {
+  background-color: var(--primary-color);
+}

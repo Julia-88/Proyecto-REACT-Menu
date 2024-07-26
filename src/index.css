@@ -1,0 +1,52 @@
+:root {
+  --primary-color: purple;
+  --secondary-color: #6c757d;
+  --third-color: #6c757d;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --background-color: rgb(243, 238, 238);
+  --hoover-color: rgb(211, 78, 171);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(243, 238, 238);
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+  'Arial', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.welcome-container {
+  text-align: center; /* Centrar el texto */
+  margin: 20px; /* Margen alrededor del contenedor */
+  padding: 20px; /* Espaciado interno */
+  background-color: #f8f8f8; /* Color de fondo */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.welcome-title {
+  font-size: 2.5em; /* Tamaño de fuente grande */
+  color: #333; /* Color del texto */
+  margin-bottom: 10px; /* Espaciado debajo del título */
+}
+
+.welcome-text {
+  font-size: 1.2em; /* Tamaño de fuente */
+  color: #666; /* Color del texto */
+}
